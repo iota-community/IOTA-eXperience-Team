@@ -80,13 +80,13 @@ In an effort to be more concise and distribute our knowledge, we do our best to 
 - `waiting-on-` prefix: This indicates that we're waiting on a group for input/feedback.
 - `type-` prefix: Denotes what kind of discussion is happening – a request, an open discussion, a problem, etc.
 - `-agenda` suffix: Denotes that an issue will be included in the agenda of the initiative or WG pririor to the suffix.
-- `good-first-issue`: Issues that are a good place to start contributing to the IOTA Developer Experience Committee
+- `good-first-issue`: Issues that are a good place to start contributing to the IOTA Experience Team
 - `mentor-available`: Issues that have a mentor available to help out
 
 ## Governance and Current Members
 
-The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Committee Charter](./IOTA-Developer-Experience-Committee-Charter.md) to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
+The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter](./IOTA-Experience-Team-Charter.md) to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
 
-### Community Committee Members
+### IOTA Experience Team Members
 
 * [ioiobzit] – **Antonio Nardella** &lt;antonio.nardella@iota.org&gt; **IOTA Experience Team Enabler**
