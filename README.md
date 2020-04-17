@@ -1,16 +1,16 @@
 # IOTA Experience Team
 
-The IOTA Experience Team is a top-level team in the IOTA Project focused on community-facing efforts.
+The IOTA Experience Team is a top-level team in the IOTA community focused on community-facing efforts.
 
 For more details read the [IOTA Experience Team Charter].
 
 ## Why does the IOTA Experience Team exist?
 
-The IOTA Experience Team reflects the relevance of the voice of community in IOTA projects. The formation of this group as a team alongside the IOTA Foundation demonstrates that community-focused contributions are valued by the contributors of IOTA, and that roles other than those of code contributor help foster a healthy, sustainable open source community.
+The IOTA Experience Team reflects the relevance of the voice of community in IOTA. The formation of this group as a team alongside the IOTA Foundation demonstrates that community-focused contributions are valued by the contributors of IOTA, and that roles other than those of code contributor help foster a healthy, sustainable open source community.
 
 The IOTA Experience Team works to empower people in every part of the project. By focusing on outward-facing community efforts, we aim to make the IOTA projects more diverse and improve the environment for inclusivity, attracting a wider range of views, voices, and opinions, which in turn helps us ship better technologies.
 
-IOTA Experience Team initiatives are formed with the intent of improving the cultural development and outreach within IOTA projects.
+IOTA Experience Team initiatives are formed with the intent of improving the cultural development and outreach within IOTA.
 
 ## Contributing
 
@@ -85,8 +85,12 @@ In an effort to be more concise and distribute our knowledge, we do our best to 
 
 ## Governance and Current Members
 
-The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter](./IOTA-Experience-Team-Charter.md) to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
+The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter](./IOTA-Developer-Experience-Team-Charter.md) to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
 
 ### IOTA Experience Team Members
 
 * [ioiobzit] – **Antonio Nardella** &lt;antonio.nardella@iota.org&gt; **IOTA Experience Team Enabler**
+
+<!-- Source for Markdown links included in this document -->
+
+[ioiobzit]:       https://github.com/ioiobzit
