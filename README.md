@@ -85,7 +85,7 @@ In an effort to be more concise and distribute our knowledge, we do our best to 
 
 ## Governance and Current Members
 
-The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter] to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
+The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See the [IOTA Experience Team Charter] to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
 
 ### IOTA Experience Team Members
 
