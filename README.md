@@ -85,12 +85,14 @@ In an effort to be more concise and distribute our knowledge, we do our best to 
 
 ## Governance and Current Members
 
-The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter](./IOTA-Developer-Experience-Team-Charter.md) to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
+The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See [The IOTA Experience Team Charter] to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
 
 ### IOTA Experience Team Members
 
 * [ioiobzit] – **Antonio Nardella** &lt;antonio.nardella@iota.org&gt; **IOTA Experience Team Enabler**
 
 <!-- Source for Markdown links included in this document -->
+
+[IOTA Experience Team Charter]: https://github.com/iota-community/iota-experience-team/blob/master/IOTA-Experience-Team-Charter.md
 
 [ioiobzit]:       https://github.com/ioiobzit
