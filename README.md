@@ -47,7 +47,7 @@ A review of the initiatives will be a standing item on the IOTA Experience Team 
 
 | Initiative              | Champion(s) | Team members | Link                                                         | OKR  |
 | ----------------------- | ----------- | ------------ | ------------------------------------------------------------ | ---- |
-| GoShimmer Experience    |             |              | [iota-community/GoShimmer](https://github.com/iota-community/GoShimmerTeam) |      |
+| GoShimmer Experience    |             |              | [iota-community/GoShimmer](https://github.com/iota-community/GoShimmer) |      |
 | IOTA Streams Experience |             |              | [iota-community/IOTAStreams](https://github.com/iota-community/iotastreams) |      |
 | TBA                     |             |              |                                                              |      |
 | TBA                     |             |              |                                                              |      |
