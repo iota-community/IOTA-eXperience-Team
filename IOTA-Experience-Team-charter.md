@@ -39,7 +39,7 @@ Subject to such policies as may be set by the IOTA Foundation, the IOTA Experien
 - Being a developer advocate
 - Create a list of RFP’s for the EDF to fund Open Source development
 
-## Section 4. Node.js Project Operations.
+## Section 4. IOTA Experience Team Initiatives Operations
 
 The IOTA Experience Team will establish and maintain a process of support for IOTA community projects. The process will establish guidelines for how culture and values of the community can be supported.
 
@@ -57,7 +57,7 @@ Collaborators may opt to elevate significant or controversial modifications, or 
 
 - Contributors: contribute code or other artifacts, but do not have the right to commit to the code base. Contributors work with the Project’s Collaborators to have code committed to the code base. A Contributor may be promoted to a Collaborator by the projects’ Maintainer or the IOTA Experience Team. Contributors should rarely be encumbered by the IOTA Experience Team and never by the Board.
 - Project: a collaboration effort, e.g. a subsystem, that is organized through the project creation process and approved by the IOTA Experience Team.
-- Community Project: projects within the IOTA Foundation or in the IOTA Ecosystem that contribute to the health of the Node.js project.
+- Community Project: projects within the IOTA Foundation or in the IOTA Ecosystem that contribute to the health of the IOTA project.
 - Advisor: a Collaborator within a Community Project elected to represent the Community Project on the IOTA Experience Team.
 - Member: a Collaborator who has met the requirements of participation to be considered for acceptance, and subsequently voted in by the IOTA Experience Team voting process.
 
