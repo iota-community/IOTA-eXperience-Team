@@ -33,6 +33,12 @@ If you're interested in participating in the IOTA Experience Team directly, you'
 
 IOTA Experience Team meetings are broadcast via Jitsi. The join link is published in the meeting's respective issue. Meeting times are coordinated to optimize for contributor timezones.
 
+### Preferred Date&Times:
+
+### ![](./page-resources/images/readme-date&time.png)
+
+*(last survey April 2020)*
+
 ## Strategic Initiatives
 
 Initiatives are projects that the IOTA Experience Team and the broader community members are collaborating on to enable IOTA across the ecosystem.
