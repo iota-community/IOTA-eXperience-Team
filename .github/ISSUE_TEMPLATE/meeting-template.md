@@ -8,21 +8,21 @@ assignees: ''
 ---
 
 # Time
-UTC Thu 28-Apr-2020 18:00 (06:00 PM):
+**UTC** Tue 28-Apr-2020 18:00 (06:00 PM):
 
 Timezone | Date/Time
 -- | --
-US / Pacific | Thu 28-Apr-2020 11:00 (11:00 AM)
-US / Mountain | Thu 28-Apr-2020 12:00 (12:00 AM)
-US / Central | Thu 28-Apr-2020 13:00 (1:00 PM)
-US / Eastern | Thu 28-Apr-2020 14:00 (2:00 PM)
-London | Thu 28-Apr-2020 19:00 (07:00 PM)
-Amsterdam | Thu 28-Apr-2020 20:00 (08:00 PM)
-Moscow | Thu 28-Apr-2020 21:00 (09:00 PM)
-Chennai | Thu 28-Apr-2020 23:30 (11:30 PM)
-Hangzhou | Fri 29-Apr-2020 02:00 (02:00 AM)
-Tokyo | Fri 29-Apr-2020 03:00 (03:00 AM)
-Sydney | Fri 29-Apr-2020 05:00 (05:00 AM)
+US / Pacific | Tue 28-Apr-2020 11:00 (11:00 AM)
+US / Mountain | Tue 28-Apr-2020 12:00 (12:00 AM)
+US / Central | Tue 28-Apr-2020 13:00 (1:00 PM)
+US / Eastern | Tue 28-Apr-2020 14:00 (2:00 PM)
+London | Tue 28-Apr-2020 19:00 (07:00 PM)
+Amsterdam | Tue 28-Apr-2020 20:00 (08:00 PM)
+Moscow | Tue 28-Apr-2020 21:00 (09:00 PM)
+Chennai | Tue 28-Apr-2020 23:30 (11:30 PM)
+Hangzhou | Wed 29-Apr-2020 02:00 (02:00 AM)
+Tokyo | Wed 29-Apr-2020 03:00 (03:00 AM)
+Sydney | Wed 29-Apr-2020 05:00 (05:00 AM)
 
 Or in your local time:
 
@@ -31,11 +31,11 @@ Or in your local time:
 
 # Links
 
-Minutes Google Doc: < Insert Google Doc Link >
+Meeting Minutes:: < Insert hackmd.io Link >
 
 # Agenda
 
-_in the future_ Extracted from xt-agenda labelled issues and pull requests from the IOTA Experience Team prior to the meeting.
+Extracted from xt-agenda labelled issues and pull requests from the IOTA Experience Team prior to the meeting.
 
 * Point 1
 * Point 2
