@@ -94,6 +94,7 @@ In an effort to be more concise and distribute our knowledge, we do our best to 
 The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See the [IOTA Experience Team Charter] to learn more about the group's evolving structure and [CONTRIBUTING.md](./CONTRIBUTING.md) for guidance about the expectations for all contributors to this project.
 
 ### IOTA Experience Team Members
+Based on all-time [SourceCred](https://sourcecred.io) scores.
 
 #### X-Teams
 
@@ -102,5 +103,6 @@ The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundat
 #### IOTAStreams
 
 ![IOTAStreams](https://raw.githubusercontent.com/iota-community/IOTAStreams/master/page-resources/images/contributors_x_streams.svg?sanitize=true)
+
 
 <!-- Source for Markdown links included in this document -->
