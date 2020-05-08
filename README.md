@@ -95,12 +95,12 @@ The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundat
 
 ### IOTA Experience Team Members
 
-* [ioiobzit] – **Antonio Nardella** &lt;antonio.nardella@iota.org&gt; **IOTA Experience Team Enabler**
-* [l3wi] - **Lewis Freiberg** &lt;lewis@iota.org&gt;
+#### X-Teams
+
+![X-Teams](./page-resources/images/contributors_x_teams.svg)
+
+#### IOTAStreams
+
+![IOTAStreams](iota-community/IOTAStreams/page-resources/images/contributors_x_streams.svg)
 
 <!-- Source for Markdown links included in this document -->
-
-[IOTA Experience Team Charter]: https://github.com/iota-community/iota-experience-team/blob/master/IOTA-Experience-Team-charter.md
-
-[ioiobzit]:       https://github.com/ioiobzit
-[l3wi]:       https://github.com/l3wi
