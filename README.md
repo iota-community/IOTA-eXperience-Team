@@ -101,6 +101,6 @@ The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundat
 
 #### IOTAStreams
 
-![IOTAStreams](iota-community/IOTAStreams/page-resources/images/contributors_x_streams.svg)
+![IOTAStreams](https://raw.githubusercontent.com/iota-community/IOTAStreams/master/page-resources/images/contributors_x_streams.svg?sanitize=true)
 
 <!-- Source for Markdown links included in this document -->
