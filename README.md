@@ -1,4 +1,5 @@
 # IOTA Experience Team
+![](./page-resources/images/x_team_logo.svg)
 
 The IOTA Experience Team is a high level team composed of community members and IOTA Foundation employees who focus on community-facing accessibility efforts surrounding IOTA technologies.
 
