@@ -54,11 +54,11 @@ A review of the initiatives will be a standing item on the IOTA Experience Team 
 
 | Initiative              | Champion(s) | Team members | Link                                                         | OKR  |
 | ----------------------- | ----------- | ------------ | ------------------------------------------------------------ | ---- |
-| GoShimmer Experience    |             |              | https://github.com/iota-community/GoShimmer |      |
-| IOTA Streams Experience |             |              | https://github.com/iota-community/IOTAStreams |      |
-| Bee Experience          |             |              | https://github.com/iota-community/bee |      |
-| IOTA Client Lib Experience |             |              | TBA                                                              |      |
-| Permanode Experience |             |              | TBA                                                             |      |
+| GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |      |
+| IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |      |
+| Bee Experience          |             |              | https://github.com/iota-community/X-Team_Bee |      |
+| IOTA Client Lib Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Libraries |      |
+| Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |      |
 
 ### In Need of Champion
 
