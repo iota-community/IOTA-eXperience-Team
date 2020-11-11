@@ -52,14 +52,15 @@ A review of the initiatives will be a standing item on the IOTA Experience Team 
 
 ### Current Initiatives
 
-| Initiative              | Champion(s) | Team members | Link                                                         | OKR  |
-| ----------------------- | ----------- | ------------ | ------------------------------------------------------------ | ---- |
-| GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |      |
-| IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |      |
-| Bee Experience          |             |              | https://github.com/iota-community/X-Team_Bee |      |
-| IOTA Client Lib Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Libraries |      |
-| Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |      |
-| IOTA Access Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Access |      |
+| Initiative              | Champion(s) | Team members | Link                                                         |
+| ----------------------- | ----------- | ------------ | ------------------------------------------------------------ |
+| GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |
+| IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |
+| Bee Experience          |             |              | https://github.com/iota-community/X-Team_Bee |
+| IOTA Client Lib Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Libraries |
+| Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |
+| IOTA Access Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Access |
+| IOTA Identity | @huhn511 |              | https://github.com/iota-community/X-Team_IOTA_Identity |
 
 ### In Need of Champion
 
