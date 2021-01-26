@@ -4,6 +4,16 @@ There are different ways to support IOTA without being a developer.
 
 **First and foremost** join the IOTA Community on the IOTA Discord server. Click on [this link](http://discord.iota.org/) to get the invitation to the server and get in touch with the IOTA Foundation members and the awesome IOTA community members.
 
+  * [Be an IOTAnaut](#be-an-iotanaut)
+    + [How to be an IOTAnaut](#how-to-be-an-iotanaut)
+      - [Twitter](#twitter)
+      - [LinkedIn](#linkedin)
+      - [YouTube](#youtube)
+      - [GitHub](#github)
+      - [Reddit](#reddit)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 Up next other ways to support IOTA:
 
 ## Be an IOTAnaut
@@ -12,7 +22,7 @@ An IOTAnaut supports the project on various social networks like [Twitter](https
 
 Optional: Rank as *iotanaut* on the IOTA Discord to be notified when news come out. To do so, join the **#rank-yourself** channel, type **!addrank iotanaut** as message and send it. From now on if someone *pings* the IOTAnauts by typing **@iotanauts** in Discord you will get a notification.
 
-### How to be an IOTAnaut?
+### How to be an IOTAnaut
 
 Register an account <u>using a nickname</u> at the following sites and follow, subscribe, like, star, upvote the activities by the IOTA Foundation and the Ecosystem.
 
