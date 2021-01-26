@@ -60,7 +60,7 @@ Difficulty level: **easy**
 
 Time necessary: **15 minutes/week**
 
-Sign up to YouTube: https://accounts.google.com/signup/v2/webcreateaccount?service=youtube&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dit%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&dsh=S2013719411%3A1610725590875997&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp&nogm=true
+Sign up to YouTube: https://www.youtube.com/signup
 
 Subscribe to the IOTA Foundation channel [here](https://www.youtube.com/c/iotafoundation).
 
