@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Team Charter</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="IOTA-Experience-Team-charter.html" class="active"><strong aria-hidden="true">2.</strong> Team Charter</a></li><li class="chapter-item expanded "><a href="community/support_the_vision.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="CONTRIBUTING.html"><strong aria-hidden="true">4.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="CODE-OF-CONDUCT.html"><strong aria-hidden="true">5.</strong> Code of Conduct</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#iota-experience-team-charter" id="iota-experience-team-charter">IOTA Experience Team Charter</a></h1>
+<h2><a class="header" href="#section-1-guiding-principle" id="section-1-guiding-principle">Section 1. Guiding Principle.</a></h2>
+<p>The IOTA Experience Team will operate transparently, openly, collaboratively, and ethically. Project proposals, timelines, and status must not merely be open, but also easily visible to the entire ecosystem.</p>
+<h2><a class="header" href="#section-2-establishment-of-the-iota-experience-team" id="section-2-establishment-of-the-iota-experience-team">Section 2. Establishment of the IOTA Experience Team.</a></h2>
+<p>Membership is for 6 months. The group will ask on a regular basis if the expiring members would like to stay on. A member just needs to reply to renew. There is no fixed size of the IOTA Experience Team. However, the expected target for Advisors, as defined in Section 6, is between 9 and 12, to ensure adequate coverage of important areas of community expertise, balanced with the ability to make decisions efficiently.</p>
+<p>There is no specific set of requirements or qualifications for IOTA Experience Team membership beyond these rules. The IOTA Experience Team may add additional members to the IOTA Experience Team by a standard IOTA Experience Team motion and vote. A IOTA Experience Team member may be removed from the IOTA Experience Team by voluntary resignation, or by a standard IOTA Experience Team motion.</p>
+<p>Changes to IOTA Experience Team membership should be posted in the agenda, and may be suggested as any other agenda item.</p>
+<p>No more than one-fourth of the IOTA Experience Team members may be affiliated with the same employer or leadership of a community/ecosystem organization. If removal or resignation of a IOTA Experience Team member, or a change of employment by a IOTA Experience Team member, creates a situation where more than one-fourth of the IOTA Experience Team membership shares an employer, then the situation must be immediately remedied by the resignation or removal of one or more IOTA Experience Team members affiliated with the over-represented employer(s). IOTA Foundation members excluded.</p>
+<p>The IOTA Experience Team members shall consist of active members of Community Projects.</p>
+<p>The IOTA Experience Team may, at its discretion, invite any number of non-voting Guests to participate in the public portion of IOTA Experience Team discussions and meetings.</p>
+<p>The IOTA Experience Team shall meet regularly using tools that enable participation by the community (through any appropriate means selected by the IOTA Experience Team). Minutes or an appropriate recording shall be taken and made available to the community through accessible public postings.</p>
+<p>IOTA Experience Team members are expected to regularly participate in IOTA Experience Team activities.</p>
+<p>In the case where an individual IOTA Experience Team member -- within any three month period -- attends fewer than 25% of the regularly scheduled meetings, does not participate in IOTA Experience Team discussions, and does not participate in IOTA Experience Team votes, the member shall be automatically removed from the IOTA Experience Team. The member may be invited to continue attending IOTA Experience Team meetings as a Guest.</p>
+<h2><a class="header" href="#section-3-responsibilities-of-the-iota-experience-team" id="section-3-responsibilities-of-the-iota-experience-team">Section 3. Responsibilities of the IOTA Experience Team.</a></h2>
+<p>Subject to such policies as may be set by the IOTA Foundation, the IOTA Experience Team is responsible for cultural development and outreach within the IOTA Project, including:</p>
+<ul>
+<li>Outreach to community organizations</li>
+<li>Documentation of community organizations</li>
+<li>Recommendations for building and developing community projects that align with needs of IOTA</li>
+<li>Support the develompent team with code samples</li>
+<li>Enhance the official documentation</li>
+<li>Actively participate with feedback</li>
+<li>Discuss and engage with the community developers</li>
+<li>Actively develop of proof of concepts</li>
+<li>Being a developer advocate</li>
+<li>Create a list of RFP’s for the EDF to fund Open Source development</li>
+</ul>
+<h2><a class="header" href="#section-4-iota-experience-team-initiatives-operations" id="section-4-iota-experience-team-initiatives-operations">Section 4. IOTA Experience Team Initiatives Operations</a></h2>
+<p>The IOTA Experience Team will establish and maintain a process of support for IOTA community projects. The process will establish guidelines for how culture and values of the community can be supported.</p>
+<p>The IOTA Experience Team and entire technical community will follow any processes as may be specified by the Board relating to the intake and license compliance review of contributions, including the IOTA Foundation's IP Policy.</p>
+<h2><a class="header" href="#section-5-roles" id="section-5-roles">Section 5. Roles</a></h2>
+<p>The git repositories for the IOTA Experience Team and its initiatives are maintained by the IOTA Experience Team and additional Collaborators who are added by the IOTA Experience Team on an ongoing basis.</p>
+<p>Individuals making significant and valuable contributions, “Contributor(s)”, are made Collaborators and given commit-access to the project. These individuals are identified by the IOTA Experience Team and their addition as Collaborators is discussed during the weekly IOTA Experience Team meeting. Modifications of the contents of the git repository are made on a collaborative basis as defined in the development process.</p>
+<p>Collaborators may opt to elevate significant or controversial modifications, or modifications that have not found consensus to the IOTA Experience Team for discussion by assigning the <code>cc-agenda</code> tag to a pull request or issue. The IOTA Experience Team should serve as the final arbiter where required. The IOTA Experience Team will maintain and publish a list of current Collaborators by Project, as well as a development process guide for Collaborators and Contributors looking to participate in the development effort.</p>
+<h2><a class="header" href="#section-6-definitions" id="section-6-definitions">Section 6. Definitions</a></h2>
+<ul>
+<li>Contributors: contribute code or other artifacts, but do not have the right to commit to the code base. Contributors work with the Project’s Collaborators to have code committed to the code base. A Contributor may be promoted to a Collaborator by the projects’ Maintainer or the IOTA Experience Team. Contributors should rarely be encumbered by the IOTA Experience Team and never by the Board.</li>
+<li>Project: a collaboration effort, e.g. a subsystem, that is organized through the project creation process and approved by the IOTA Experience Team.</li>
+<li>Community Project: projects within the IOTA Foundation or in the IOTA Ecosystem that contribute to the health of the IOTA project.</li>
+<li>Advisor: a Collaborator within a Community Project elected to represent the Community Project on the IOTA Experience Team.</li>
+<li>Member: a Collaborator who has met the requirements of participation to be considered for acceptance, and subsequently voted in by the IOTA Experience Team voting process.</li>
+</ul>
+<p>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and &quot;OPTIONAL&quot; in all IOTA Experience Team documents are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a>.</p>
+<p>For the current list of IOTA Experience Team members, see the project
+<a href="./README.html#IOTA-Experience-Team-members">README.md</a>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="community/support_the_vision.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="community/support_the_vision.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title></title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="IOTA-Experience-Team-charter.html"><strong aria-hidden="true">2.</strong> Team Charter</a></li><li class="chapter-item expanded "><a href="community/support_the_vision.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="CONTRIBUTING.html"><strong aria-hidden="true">4.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="CODE-OF-CONDUCT.html"><strong aria-hidden="true">5.</strong> Code of Conduct</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#iota-experience-team" id="iota-experience-team">IOTA Experience Team</a></h1>
+<p><img src="./page-resources/images/x_team_logo.svg" alt="" /></p>
+<p>The IOTA Experience Team is a high level team composed of community members and IOTA Foundation employees who focus on community-facing accessibility efforts surrounding IOTA technologies.</p>
+<p>For more details read the [IOTA Experience Team Charter].</p>
+<h2><a class="header" href="#what-is-the-vision-behind-the-iota-experience-team-exist" id="what-is-the-vision-behind-the-iota-experience-team-exist">What is the vision behind the IOTA Experience Team exist?</a></h2>
+<p>Sustainable open source software is always, first and foremost, a community effort. By its very nature, the health of every project in this domain has as much to do with those consuming the code as it has to do with those maintaining it.</p>
+<p>At the IOTA Foundation, we want to open up a feedback loop between our internal development teams and, you, the amazing people doing wonderful things with the protocol. By bringing some of the “real world” back into the development processes, the vision is to offer the opportunity for you to become intimately involved in preparing software for its transition from Alpha to a Full Release.</p>
+<p>As a member of the IOTA Experience Team, you won’t be met with demands or endless formalities. By participating in this IOTA Experience Team, you will be empowered to speak as a voice for the community and guide development processes. And at the end of the day, you will have helped yourself, the IOTA Foundation and the whole community to more solid, intuitive, and useful technologies.</p>
+<h2><a class="header" href="#contributing" id="contributing">Contributing</a></h2>
+<blockquote>
+<p>code commits !== the only means to contributions.</p>
+</blockquote>
+<p>The IOTA Experience Team is tasked with growing and sustaining the IOTA Community. If you're reading this, you're already a part of that community and we'd love to have your help!</p>
+<p>Before you get started, here's a broad outline of the IOTA Experience Team's governance structure:</p>
+<ul>
+<li><strong>IOTA Experience Team:</strong> meta-level admin concerns, cross-cutting with other groups and Working Groups
+<ul>
+<li><strong>Initiatives:</strong> focused on specific tasks, independent from the IOTA Experience Team but sharing what they're doing in IOTA Experience Team meetings.</li>
+</ul>
+</li>
+</ul>
+<p>As seen here, most of the community work that immediately affects the project is done within the numerous <strong>initiatives</strong>. We recommend checking the <a href="index.html#strategic-initiatives">list of initiatives</a> below and getting involved with one that you find interesting! If nothing suits your fancy and you have concrete ideas, open an issue here! We can help to point you in the right direction.</p>
+<p>To <strong>get started</strong> with contributing, you should read the <a href="./CONTRIBUTING.html">Contributing Guidelines</a> document. This document details the roles you can take on. It also includes a guide to contributing and links to <code>good first issue</code>s where we're looking for help.</p>
+<p>If you're interested in participating in the IOTA Experience Team directly, you're more than welcome to join via the Jitsi link posted in our meeting issues.</p>
+<h2><a class="header" href="#meetings" id="meetings">Meetings</a></h2>
+<p>IOTA Experience Team meetings are broadcast via Jitsi. The join link is published in the meeting's respective issue. Meeting times are coordinated to optimize for contributor timezones.</p>
+<h3><a class="header" href="#preferred-datetimes" id="preferred-datetimes">Preferred Date&amp;Times:</a></h3>
+<h3><a class="header" href="#img-srcpage-resourcesimagesreadme-datetimepng-alt-" id="img-srcpage-resourcesimagesreadme-datetimepng-alt-"><img src="./page-resources/images/readme-date&amp;time.png" alt="" /></a></h3>
+<p><em>(last survey April 2020)</em></p>
+<h2><a class="header" href="#strategic-initiatives" id="strategic-initiatives">Strategic Initiatives</a></h2>
+<p>Initiatives are projects that the IOTA Experience Team and the broader community members are collaborating on to enable IOTA across the ecosystem.</p>
+<p>At any one time the IOTA Experience Team has a number of strategic initiatives underway. With the less-tangible approach to the work that the IOTA Experience Team does, having a way to track this work is important.</p>
+<p>For each strategic initiative, the IOTA Experience Team's goal is to have a single point of reference - a champion - that understands what's happening with the initiative to the fullest extent possible, and can report on the initiative as needed.</p>
+<p>A review of the initiatives will be a standing item on the IOTA Experience Team agenda (even if the update is 'nothing new') as a way to ensure they are active and have the support needed.</p>
+<h3><a class="header" href="#current-initiatives" id="current-initiatives">Current Initiatives</a></h3>
+<table><thead><tr><th>Initiative</th><th>Champion(s)</th><th>Team members</th><th>Link</th></tr></thead><tbody>
+<tr><td>GoShimmer Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_GoShimmer</td></tr>
+<tr><td>IOTA Streams Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Streams</td></tr>
+<tr><td>Bee Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_Bee</td></tr>
+<tr><td>IOTA Client Lib Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Libraries</td></tr>
+<tr><td>Permanode Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Permanode</td></tr>
+<tr><td>IOTA Access Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Access</td></tr>
+<tr><td>IOTA Identity</td><td>@huhn511</td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Identity</td></tr>
+</tbody></table>
+<h3><a class="header" href="#in-need-of-champion" id="in-need-of-champion">In Need of Champion</a></h3>
+<table><thead><tr><th>Initiative</th><th>Previous Champion</th><th>Links</th></tr></thead><tbody>
+<tr><td>GoShimmer Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Streams Experience</td><td>?</td><td></td></tr>
+<tr><td>Bee Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Client Lib Experience</td><td>?</td><td></td></tr>
+<tr><td>Permanode Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Access Experience</td><td>?</td><td></td></tr>
+</tbody></table>
+<h1><a class="header" href="#completed--retired" id="completed--retired">Completed / Retired</a></h1>
+<table><thead><tr><th>Initiative</th><th>Champion</th><th>Links</th><th>Notes</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<h2><a class="header" href="#labels-for-issues-and-prs" id="labels-for-issues-and-prs">Labels for Issues and PRs</a></h2>
+<p>In an effort to be more concise and distribute our knowledge, we do our best to use labels on issues to give context on their status. Here's a guide to how we use labels:</p>
+<ul>
+<li><code>initiative-</code> prefix: Belonging to or about an initiative that follows the prefix.</li>
+<li><code>waiting-on-</code> prefix: This indicates that we're waiting on a group for input/feedback.</li>
+<li><code>type-</code> prefix: Denotes what kind of discussion is happening – a request, an open discussion, a problem, etc.</li>
+<li><code>-agenda</code> suffix: Denotes that an issue will be included in the agenda of the initiative or WG pririor to the suffix.</li>
+<li><code>good-first-issue</code>: Issues that are a good place to start contributing to the IOTA Experience Team</li>
+<li><code>mentor-available</code>: Issues that have a mentor available to help out</li>
+</ul>
+<h2><a class="header" href="#governance-and-current-members" id="governance-and-current-members">Governance and Current Members</a></h2>
+<p>The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See the [IOTA Experience Team Charter] to learn more about the group's evolving structure and <a href="./CONTRIBUTING.html">CONTRIBUTING.md</a> for guidance about the expectations for all contributors to this project.</p>
+<h3><a class="header" href="#iota-experience-team-members" id="iota-experience-team-members">IOTA Experience Team Members</a></h3>
+<p>Based on all-time <a href="https://sourcecred.io">SourceCred</a> scores.</p>
+<h4><a class="header" href="#x-teams" id="x-teams">X-Teams</a></h4>
+<p><img src="./page-resources/images/contributors_x_teams.svg" alt="X-Teams" /></p>
+<h4><a class="header" href="#iotastreams" id="iotastreams">IOTAStreams</a></h4>
+<p><img src="https://raw.githubusercontent.com/iota-community/IOTAStreams/master/page-resources/images/contributors_x_streams.svg?sanitize=true" alt="IOTAStreams" /></p>
+<!-- Source for Markdown links included in this document -->
+<h1><a class="header" href="#iota-experience-team-charter" id="iota-experience-team-charter">IOTA Experience Team Charter</a></h1>
+<h2><a class="header" href="#section-1-guiding-principle" id="section-1-guiding-principle">Section 1. Guiding Principle.</a></h2>
+<p>The IOTA Experience Team will operate transparently, openly, collaboratively, and ethically. Project proposals, timelines, and status must not merely be open, but also easily visible to the entire ecosystem.</p>
+<h2><a class="header" href="#section-2-establishment-of-the-iota-experience-team" id="section-2-establishment-of-the-iota-experience-team">Section 2. Establishment of the IOTA Experience Team.</a></h2>
+<p>Membership is for 6 months. The group will ask on a regular basis if the expiring members would like to stay on. A member just needs to reply to renew. There is no fixed size of the IOTA Experience Team. However, the expected target for Advisors, as defined in Section 6, is between 9 and 12, to ensure adequate coverage of important areas of community expertise, balanced with the ability to make decisions efficiently.</p>
+<p>There is no specific set of requirements or qualifications for IOTA Experience Team membership beyond these rules. The IOTA Experience Team may add additional members to the IOTA Experience Team by a standard IOTA Experience Team motion and vote. A IOTA Experience Team member may be removed from the IOTA Experience Team by voluntary resignation, or by a standard IOTA Experience Team motion.</p>
+<p>Changes to IOTA Experience Team membership should be posted in the agenda, and may be suggested as any other agenda item.</p>
+<p>No more than one-fourth of the IOTA Experience Team members may be affiliated with the same employer or leadership of a community/ecosystem organization. If removal or resignation of a IOTA Experience Team member, or a change of employment by a IOTA Experience Team member, creates a situation where more than one-fourth of the IOTA Experience Team membership shares an employer, then the situation must be immediately remedied by the resignation or removal of one or more IOTA Experience Team members affiliated with the over-represented employer(s). IOTA Foundation members excluded.</p>
+<p>The IOTA Experience Team members shall consist of active members of Community Projects.</p>
+<p>The IOTA Experience Team may, at its discretion, invite any number of non-voting Guests to participate in the public portion of IOTA Experience Team discussions and meetings.</p>
+<p>The IOTA Experience Team shall meet regularly using tools that enable participation by the community (through any appropriate means selected by the IOTA Experience Team). Minutes or an appropriate recording shall be taken and made available to the community through accessible public postings.</p>
+<p>IOTA Experience Team members are expected to regularly participate in IOTA Experience Team activities.</p>
+<p>In the case where an individual IOTA Experience Team member -- within any three month period -- attends fewer than 25% of the regularly scheduled meetings, does not participate in IOTA Experience Team discussions, and does not participate in IOTA Experience Team votes, the member shall be automatically removed from the IOTA Experience Team. The member may be invited to continue attending IOTA Experience Team meetings as a Guest.</p>
+<h2><a class="header" href="#section-3-responsibilities-of-the-iota-experience-team" id="section-3-responsibilities-of-the-iota-experience-team">Section 3. Responsibilities of the IOTA Experience Team.</a></h2>
+<p>Subject to such policies as may be set by the IOTA Foundation, the IOTA Experience Team is responsible for cultural development and outreach within the IOTA Project, including:</p>
+<ul>
+<li>Outreach to community organizations</li>
+<li>Documentation of community organizations</li>
+<li>Recommendations for building and developing community projects that align with needs of IOTA</li>
+<li>Support the develompent team with code samples</li>
+<li>Enhance the official documentation</li>
+<li>Actively participate with feedback</li>
+<li>Discuss and engage with the community developers</li>
+<li>Actively develop of proof of concepts</li>
+<li>Being a developer advocate</li>
+<li>Create a list of RFP’s for the EDF to fund Open Source development</li>
+</ul>
+<h2><a class="header" href="#section-4-iota-experience-team-initiatives-operations" id="section-4-iota-experience-team-initiatives-operations">Section 4. IOTA Experience Team Initiatives Operations</a></h2>
+<p>The IOTA Experience Team will establish and maintain a process of support for IOTA community projects. The process will establish guidelines for how culture and values of the community can be supported.</p>
+<p>The IOTA Experience Team and entire technical community will follow any processes as may be specified by the Board relating to the intake and license compliance review of contributions, including the IOTA Foundation's IP Policy.</p>
+<h2><a class="header" href="#section-5-roles" id="section-5-roles">Section 5. Roles</a></h2>
+<p>The git repositories for the IOTA Experience Team and its initiatives are maintained by the IOTA Experience Team and additional Collaborators who are added by the IOTA Experience Team on an ongoing basis.</p>
+<p>Individuals making significant and valuable contributions, “Contributor(s)”, are made Collaborators and given commit-access to the project. These individuals are identified by the IOTA Experience Team and their addition as Collaborators is discussed during the weekly IOTA Experience Team meeting. Modifications of the contents of the git repository are made on a collaborative basis as defined in the development process.</p>
+<p>Collaborators may opt to elevate significant or controversial modifications, or modifications that have not found consensus to the IOTA Experience Team for discussion by assigning the <code>cc-agenda</code> tag to a pull request or issue. The IOTA Experience Team should serve as the final arbiter where required. The IOTA Experience Team will maintain and publish a list of current Collaborators by Project, as well as a development process guide for Collaborators and Contributors looking to participate in the development effort.</p>
+<h2><a class="header" href="#section-6-definitions" id="section-6-definitions">Section 6. Definitions</a></h2>
+<ul>
+<li>Contributors: contribute code or other artifacts, but do not have the right to commit to the code base. Contributors work with the Project’s Collaborators to have code committed to the code base. A Contributor may be promoted to a Collaborator by the projects’ Maintainer or the IOTA Experience Team. Contributors should rarely be encumbered by the IOTA Experience Team and never by the Board.</li>
+<li>Project: a collaboration effort, e.g. a subsystem, that is organized through the project creation process and approved by the IOTA Experience Team.</li>
+<li>Community Project: projects within the IOTA Foundation or in the IOTA Ecosystem that contribute to the health of the IOTA project.</li>
+<li>Advisor: a Collaborator within a Community Project elected to represent the Community Project on the IOTA Experience Team.</li>
+<li>Member: a Collaborator who has met the requirements of participation to be considered for acceptance, and subsequently voted in by the IOTA Experience Team voting process.</li>
+</ul>
+<p>The key words &quot;MUST&quot;, &quot;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&quot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;, &quot;MAY&quot;, and &quot;OPTIONAL&quot; in all IOTA Experience Team documents are to be interpreted as described in <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a>.</p>
+<p>For the current list of IOTA Experience Team members, see the project
+<a href="./README.html#IOTA-Experience-Team-members">README.md</a>.</p>
+<h1><a class="header" href="#i-am-not-a-developer-how-can-i-help-iota" id="i-am-not-a-developer-how-can-i-help-iota">I am not a developer, how can I help IOTA?</a></h1>
+<p>There are different ways to support IOTA without being a developer.</p>
+<p><strong>First and foremost</strong> join the IOTA Community on the IOTA Discord server. Click on <a href="http://discord.iota.org/">this link</a> to get the invitation to the server and get in touch with the IOTA Foundation members and the awesome IOTA community members.</p>
+<ul>
+<li><a href="community/support_the_vision.html#be-an-iotanaut">Be an IOTAnaut</a>
+<ul>
+<li><a href="community/support_the_vision.html#how-to-be-an-iotanaut">How to be an IOTAnaut</a>
+<ul>
+<li><a href="community/support_the_vision.html#twitter">Twitter</a></li>
+<li><a href="community/support_the_vision.html#linkedin">LinkedIn</a></li>
+<li><a href="community/support_the_vision.html#youtube">YouTube</a></li>
+<li><a href="community/support_the_vision.html#github">GitHub</a></li>
+<li><a href="community/support_the_vision.html#reddit">Reddit</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small></p>
+<p>Up next other ways to support IOTA:</p>
+<h2><a class="header" href="#be-an-iotanaut" id="be-an-iotanaut">Be an IOTAnaut</a></h2>
+<p>An IOTAnaut supports the project on various social networks like <a href="https://twitter.com/iotatoken/">Twitter</a>, <a href="https://www.linkedin.com/company/iotafoundation/">LinkedIn</a> or platforms like <a href="https://www.youtube.com/c/iotafoundation">YouTube</a>, <a href="https://github.com/iotaledger/">GitHub</a> and <a href="https://reddit.com/r/iota">Reddit</a>.</p>
+<p>Optional: Rank as <em>iotanaut</em> on the IOTA Discord to be notified when news come out. To do so, join the <strong>#rank-yourself</strong> channel, type <strong>!addrank iotanaut</strong> as message and send it. From now on if someone <em>pings</em> the IOTAnauts by typing <strong>@iotanauts</strong> in Discord you will get a notification.</p>
+<h3><a class="header" href="#how-to-be-an-iotanaut" id="how-to-be-an-iotanaut">How to be an IOTAnaut</a></h3>
+<p>Register an account <u>using a nickname</u> at the following sites and follow, subscribe, like, star, upvote the activities by the IOTA Foundation and the Ecosystem.</p>
+<h4><a class="header" href="#twitter" id="twitter">Twitter</a></h4>
+<p>Liking and retweeting news from the IOTA Foundation and other members of the ecosystem.</p>
+<p>Difficulty level: <strong>easy</strong></p>
+<p>Time necessary: <strong>15 minutes/week</strong></p>
+<p>Sign up to Twitter: https://twitter.com/i/flow/signup</p>
+<p>Follow the IOTA Foundation on Twitter <a href="https://twitter.com/iotatoken/">here</a> and follow it daily to <em>like</em> and <em>retweet</em>. Look for other IOTA projects or ecosystem members and follow them and like their tweets.</p>
+<h4><a class="header" href="#linkedin" id="linkedin">LinkedIn</a></h4>
+<p>Liking and resharing news from the IOTA Foundation and other members of the ecosystem with your professional network. Someone somewhere is looking for IOTA as a solution and they do not know it yet.</p>
+<p>Difficulty level: <strong>easy</strong></p>
+<p>Time necessary: <strong>15 minutes/week</strong></p>
+<p>Sign up to LinkedIn: https://www.linkedin.com/signup/cold-join or connect using your Google Account</p>
+<p>Follow the IOTA Foundation on LinkedIn <a href="https://www.linkedin.com/company/iotafoundation/">here</a> by clicking on the three dots and then <strong>+ Follow</strong> to <em>like</em> and <em>share</em> the articles</p>
+<p><img src="community//community/images/image-20210115161351884.png" alt="image-20210115161351884" /></p>
+<h4><a class="header" href="#youtube" id="youtube">YouTube</a></h4>
+<p>Watch the videos by the IOTA Foundation, learn about solutions built with IOTA and share them with the people you know.</p>
+<p>Difficulty level: <strong>easy</strong></p>
+<p>Time necessary: <strong>15 minutes/week</strong></p>
+<p>Sign up to YouTube: https://www.youtube.com/signup</p>
+<p>Subscribe to the IOTA Foundation channel <a href="https://www.youtube.com/c/iotafoundation">here</a>.</p>
+<p><img src="community//community/images/image-20210115164439927.png" alt="image-20210115164439927" /></p>
+<h4><a class="header" href="#github" id="github">GitHub</a></h4>
+<p>Starring a repository has some potentially beneficial effects for the  repository. When a developer looks for a repository for certain  functionalities, the number of stars gives a rough indication about the  popularity and therefore the quality of the repository.</p>
+<p>Difficulty level: <strong>medium</strong></p>
+<p>Time necessary: <strong>30 minutes the first time, 5 minutes for every new repository (when they are published)</strong></p>
+<p>Sign up to GitHub: https://github.com/join</p>
+<p>Then open the following repositories and <em>star</em> them.</p>
+<p><img src="community//community/images/image-20210115162757470.png" alt="image-20210115162757470" /></p>
+<p>https://github.com/iotaledger/streams<br />
+https://github.com/iotaledger/goshimmer<br />
+https://github.com/iotaledger/bee<br />
+https://github.com/iotaledger/firefly (not public yet)<br />
+https://github.com/iotaledger/iota.rs<br />
+https://github.com/iotaledger/iota.c<br />
+https://github.com/iotaledger/iota.go<br />
+https://github.com/iotaledger/iota.js<br />
+https://github.com/iotaledger/chronicle.rs<br />
+https://github.com/iotaledger/stronghold.rs<br />
+https://github.com/iotaledger/documentation<br />
+https://github.com/iotaledger/hornet</p>
+<h4><a class="header" href="#reddit" id="reddit">Reddit</a></h4>
+<p>Upvoting and commenting on news to keep up to date with news around IOTA and the ecosystem</p>
+<p>Difficulty level: <strong>easy</strong></p>
+<p>Time necessary: <strong>15-20 minutes/week</strong></p>
+<p>Sign up to Reddit: https://www.reddit.com/register/ or connect using your Google Account</p>
+<p>Join the IOTA subreddit https://www.reddit.com/r/Iota/ and upvote or comment on the posted information.</p>
+<p><img src="community//community/images/image-20210115164131145.png" alt="image-20210115164131145" /></p>
+<h1><a class="header" href="#iota-experience-team-contributing-guide-10" id="iota-experience-team-contributing-guide-10">IOTA Experience Team Contributing Guide 1.0</a></h1>
+<p><strong>First things first:</strong> If you're unsure of anything, please <em>don't hesitate to ask a question in a discussion or create an issue</em>. Nobody will be upset with you; we'll always try to include you in the work you care about. The worst that can happen is that you'll be politely asked to change something. Any kind of contribution, no matter how big or small, helps!</p>
+<h2><a class="header" href="#code-of-conduct" id="code-of-conduct">Code of Conduct</a></h2>
+<p>The Code of Conduct explains the <em>bare minimum</em> behavior
+expectations the IOTA Foundation requires from all contributors.
+<a href="https://github.com/iota-community/iota-experience-team/blob/master/CODE-OF-CONDUCT.md">Please read it before participating.</a></p>
+<h2><a class="header" href="#vocabulary" id="vocabulary">Vocabulary</a></h2>
+<ul>
+<li>A <strong>Guest</strong> is any individual who has requested or been requested to attend a IOTA Experience Team meeting.</li>
+<li>A <strong>Contributor</strong> is any individual creating or commenting on an issue or pull request.</li>
+<li>A <strong>Collaborator</strong> is a contributor who has been given write access to the the repo(s)
+relevant to IOTA Experience Team initiatives or working groups.</li>
+<li>A <strong>Member</strong> is a collaborator who has met the requirements of
+participation to be considered for acceptance.</li>
+</ul>
+<h2><a class="header" href="#teams-and-working-groups" id="teams-and-working-groups">Teams and Working Groups</a></h2>
+<p>The IOTA Experience Team represents a collection of teams and working groups that are expressly working toward growing and supporting the overall IOTA community. IOTA as a whole needs a broad range of skills and contributions, which are not necessarily technical in nature, to thrive.</p>
+<p>You can see the current Initiatives and Team members in the <a href="https://github.com/iota-community/iota-experience-team/blob/master/README.md">README.md</a> file - if there is one that seems to cover an area of particular interest to you, you should take a look at the Team or Working Group's repo to see how you can get further involved.</p>
+<h2><a class="header" href="#logging-issues" id="logging-issues">Logging Issues</a></h2>
+<p>Log an issue for any question or problem you might have. When in doubt, log an issue,
+any additional policies about what to include will be provided in the responses. The only
+exception is security disclosures which should be sent privately. If you have a concern that is Code
+of Conduct related and do not feel comfortable reporting publicly, please reach out to an individual listed under IOTA Experience Team Collaborators</p>
+<p>Collaborators may direct you to another repository, ask for additional clarifications, and
+add appropriate metadata before the issue is addressed.</p>
+<p>Please be courteous, respectful, and every participant is expected to follow the
+project's Code of Conduct.</p>
+<h2><a class="header" href="#contributions" id="contributions">Contributions</a></h2>
+<p>Any change to resources in this repository must be through pull requests (colloquially referred to as &quot;PRs&quot;). This applies to all changes, both non-code and code: documentation, process-related contributions, binary files, etc. Even long term collaborators and WG members must use pull requests.</p>
+<p>No pull request can be merged without being reviewed.</p>
+<p>For non-trivial contributions, pull requests should sit for at least 72 hours to ensure that contributors in other timezones have time to review. Consideration should also be given to weekends and other holiday periods to ensure active collaborators all have reasonable time to become involved in the discussion and review process if they wish.</p>
+<p>The default for each contribution is that it is accepted once no collaborator has an objection. During review collaborators may also request that a specific contributor who is most versed in a particular area gives a &quot;LGTM&quot; before the PR can be merged. There is no additional &quot;sign off&quot; process for contributions to land. Once all issues brought by collaborators are addressed, it can be landed by any collaborator.</p>
+<p>In the case of an objection being raised in a pull request by another collaborator, all involved collaborators should seek to arrive at a consensus by way of addressing concerns being expressed by discussion, compromise on the proposed change, or withdrawal of the proposed change.</p>
+<p>If a contribution is controversial and collaborators cannot agree about how to get it to land or if it should land then it should be escalated to the IOTA Experience Team. IOTA Experience Team members should regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the IOTA Experience Team for resolution and that discussion and compromise among collaborators be the default resolution mechanism.</p>
+<p>Collaborators are expected to follow this policy and continue to send pull requests, go through proper review, and have other collaborators merge their pull requests.</p>
+<h2><a class="header" href="#the-iota-experience-team-process" id="the-iota-experience-team-process">The IOTA Experience Team Process</a></h2>
+<p>The IOTA Experience Team uses a &quot;consensus seeking&quot; process for issues that are escalated to the IOTA Experience Team.
+The group tries to find a resolution that has no open objections among the IOTA Experience Team members.
+If a consensus cannot be reached that has no objections then a majority wins vote
+is called. It is also expected that the majority of decisions made by the IOTA Experience Team are via a consensus seeking process and that voting is only used as a last-resort.</p>
+<p>Resolution may involve returning the issue to collaborators with suggestions on how to
+move forward towards a consensus. It is not expected that a meeting of the IOTA Experience Team will resolve all issues on its agenda during that meeting and may prefer to continue the discussion happening among the collaborators.</p>
+<p>Members can be added to the IOTA Experience Team at any time. Any collaborator can nominate another collaborator to the IOTA Experience Team and the IOTA Experience Team uses its standard consensus seeking process to evaluate whether or not to add this new member. Members who do not participate consistently at the level of a majority of the other members are expected to resign.</p>
+<h1><a class="header" href="#contributor-covenant-code-of-conduct" id="contributor-covenant-code-of-conduct">Contributor Covenant Code of Conduct</a></h1>
+<h2><a class="header" href="#our-pledge" id="our-pledge">Our Pledge</a></h2>
+<p>We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.</p>
+<p>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</p>
+<h2><a class="header" href="#our-standards" id="our-standards">Our Standards</a></h2>
+<p>Examples of behavior that contributes to a positive environment for our community include:</p>
+<ul>
+<li>Demonstrating empathy and kindness toward other people</li>
+<li>Being respectful of differing opinions, viewpoints, and experiences</li>
+<li>Giving and gracefully accepting constructive feedback</li>
+<li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+<li>Focusing on what is best not just for us as individuals, but for the overall community</li>
+</ul>
+<p>Examples of unacceptable behavior include:</p>
+<ul>
+<li>The use of sexualized language or imagery, and sexual attention or
+advances of any kind</li>
+<li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+<li>Public or private harassment</li>
+<li>Publishing others' private information, such as a physical or email
+address, without their explicit permission</li>
+<li>Other conduct which could reasonably be considered inappropriate in a
+professional setting</li>
+</ul>
+<h2><a class="header" href="#enforcement-responsibilities" id="enforcement-responsibilities">Enforcement Responsibilities</a></h2>
+<p>Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
+<p>Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.</p>
+<h2><a class="header" href="#scope" id="scope">Scope</a></h2>
+<p>This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.</p>
+<h2><a class="header" href="#enforcement" id="enforcement">Enforcement</a></h2>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement. All complaints will be reviewed and investigated promptly and fairly.</p>
+<p>All community leaders are obligated to respect the privacy and security of the reporter of any incident.</p>
+<h2><a class="header" href="#enforcement-guidelines" id="enforcement-guidelines">Enforcement Guidelines</a></h2>
+<p>Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:</p>
+<h3><a class="header" href="#1-correction" id="1-correction">1. Correction</a></h3>
+<p><strong>Community Impact</strong>: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.</p>
+<p><strong>Consequence</strong>: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.</p>
+<h3><a class="header" href="#2-warning" id="2-warning">2. Warning</a></h3>
+<p><strong>Community Impact</strong>: A violation through a single incident or series of actions.</p>
+<p><strong>Consequence</strong>: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.</p>
+<h3><a class="header" href="#3-temporary-ban" id="3-temporary-ban">3. Temporary Ban</a></h3>
+<p><strong>Community Impact</strong>: A serious violation of community standards, including sustained inappropriate behavior.</p>
+<p><strong>Consequence</strong>: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.</p>
+<h3><a class="header" href="#4-permanent-ban" id="4-permanent-ban">4. Permanent Ban</a></h3>
+<p><strong>Community Impact</strong>: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.</p>
+<p><strong>Consequence</strong>: A permanent ban from any sort of public interaction within the project community.</p>
+<h2><a class="header" href="#attribution" id="attribution">Attribution</a></h2>
+<p>This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.0,
+available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.</p>
+<p>Community Impact Guidelines were inspired by <a href="https://github.com/mozilla/diversity">Mozilla's code of conduct enforcement ladder</a>.</p>
+<p>For answers to common questions about this code of conduct, see the FAQ at
+https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
