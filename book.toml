@@ -6,3 +6,5 @@ src = "./"
 
 [output.html]
 theme = "page/theme"
+
+# [output.linkcheck]
