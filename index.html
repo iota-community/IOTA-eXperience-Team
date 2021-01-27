@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html" class="active"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="../IOTA-Experience-Team-charter.html"><strong aria-hidden="true">2.</strong> Team Charter</a></li><li class="chapter-item expanded "><a href="../community/support_the_vision.html"><strong aria-hidden="true">3.</strong> Community</a></li><li class="chapter-item expanded "><a href="../CONTRIBUTING.html"><strong aria-hidden="true">4.</strong> Contributing</a></li><li class="chapter-item expanded "><a href="../CODE-OF-CONDUCT.html"><strong aria-hidden="true">5.</strong> Code of Conduct</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#iota-experience-team" id="iota-experience-team">IOTA Experience Team</a></h1>
+<p><img src="./page-resources/images/x_team_logo.svg" alt="" /></p>
+<p>The IOTA Experience Team is a high level team composed of community members and IOTA Foundation employees who focus on community-facing accessibility efforts surrounding IOTA technologies.</p>
+<p>For more details read the [IOTA Experience Team Charter].</p>
+<h2><a class="header" href="#what-is-the-vision-behind-the-iota-experience-team-exist" id="what-is-the-vision-behind-the-iota-experience-team-exist">What is the vision behind the IOTA Experience Team exist?</a></h2>
+<p>Sustainable open source software is always, first and foremost, a community effort. By its very nature, the health of every project in this domain has as much to do with those consuming the code as it has to do with those maintaining it.</p>
+<p>At the IOTA Foundation, we want to open up a feedback loop between our internal development teams and, you, the amazing people doing wonderful things with the protocol. By bringing some of the “real world” back into the development processes, the vision is to offer the opportunity for you to become intimately involved in preparing software for its transition from Alpha to a Full Release.</p>
+<p>As a member of the IOTA Experience Team, you won’t be met with demands or endless formalities. By participating in this IOTA Experience Team, you will be empowered to speak as a voice for the community and guide development processes. And at the end of the day, you will have helped yourself, the IOTA Foundation and the whole community to more solid, intuitive, and useful technologies.</p>
+<h2><a class="header" href="#contributing" id="contributing">Contributing</a></h2>
+<blockquote>
+<p>code commits !== the only means to contributions.</p>
+</blockquote>
+<p>The IOTA Experience Team is tasked with growing and sustaining the IOTA Community. If you're reading this, you're already a part of that community and we'd love to have your help!</p>
+<p>Before you get started, here's a broad outline of the IOTA Experience Team's governance structure:</p>
+<ul>
+<li><strong>IOTA Experience Team:</strong> meta-level admin concerns, cross-cutting with other groups and Working Groups
+<ul>
+<li><strong>Initiatives:</strong> focused on specific tasks, independent from the IOTA Experience Team but sharing what they're doing in IOTA Experience Team meetings.</li>
+</ul>
+</li>
+</ul>
+<p>As seen here, most of the community work that immediately affects the project is done within the numerous <strong>initiatives</strong>. We recommend checking the <a href="#strategic-initiatives">list of initiatives</a> below and getting involved with one that you find interesting! If nothing suits your fancy and you have concrete ideas, open an issue here! We can help to point you in the right direction.</p>
+<p>To <strong>get started</strong> with contributing, you should read the <a href="./CONTRIBUTING.html">Contributing Guidelines</a> document. This document details the roles you can take on. It also includes a guide to contributing and links to <code>good first issue</code>s where we're looking for help.</p>
+<p>If you're interested in participating in the IOTA Experience Team directly, you're more than welcome to join via the Jitsi link posted in our meeting issues.</p>
+<h2><a class="header" href="#meetings" id="meetings">Meetings</a></h2>
+<p>IOTA Experience Team meetings are broadcast via Jitsi. The join link is published in the meeting's respective issue. Meeting times are coordinated to optimize for contributor timezones.</p>
+<h3><a class="header" href="#preferred-datetimes" id="preferred-datetimes">Preferred Date&amp;Times:</a></h3>
+<h3><a class="header" href="#img-srcpage-resourcesimagesreadme-datetimepng-alt-" id="img-srcpage-resourcesimagesreadme-datetimepng-alt-"><img src="./page-resources/images/readme-date&amp;time.png" alt="" /></a></h3>
+<p><em>(last survey April 2020)</em></p>
+<h2><a class="header" href="#strategic-initiatives" id="strategic-initiatives">Strategic Initiatives</a></h2>
+<p>Initiatives are projects that the IOTA Experience Team and the broader community members are collaborating on to enable IOTA across the ecosystem.</p>
+<p>At any one time the IOTA Experience Team has a number of strategic initiatives underway. With the less-tangible approach to the work that the IOTA Experience Team does, having a way to track this work is important.</p>
+<p>For each strategic initiative, the IOTA Experience Team's goal is to have a single point of reference - a champion - that understands what's happening with the initiative to the fullest extent possible, and can report on the initiative as needed.</p>
+<p>A review of the initiatives will be a standing item on the IOTA Experience Team agenda (even if the update is 'nothing new') as a way to ensure they are active and have the support needed.</p>
+<h3><a class="header" href="#current-initiatives" id="current-initiatives">Current Initiatives</a></h3>
+<table><thead><tr><th>Initiative</th><th>Champion(s)</th><th>Team members</th><th>Link</th></tr></thead><tbody>
+<tr><td>GoShimmer Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_GoShimmer</td></tr>
+<tr><td>IOTA Streams Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Streams</td></tr>
+<tr><td>Bee Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_Bee</td></tr>
+<tr><td>IOTA Client Lib Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Libraries</td></tr>
+<tr><td>Permanode Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Permanode</td></tr>
+<tr><td>IOTA Access Experience</td><td></td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Access</td></tr>
+<tr><td>IOTA Identity</td><td>@huhn511</td><td></td><td>https://github.com/iota-community/X-Team_IOTA_Identity</td></tr>
+</tbody></table>
+<h3><a class="header" href="#in-need-of-champion" id="in-need-of-champion">In Need of Champion</a></h3>
+<table><thead><tr><th>Initiative</th><th>Previous Champion</th><th>Links</th></tr></thead><tbody>
+<tr><td>GoShimmer Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Streams Experience</td><td>?</td><td></td></tr>
+<tr><td>Bee Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Client Lib Experience</td><td>?</td><td></td></tr>
+<tr><td>Permanode Experience</td><td>?</td><td></td></tr>
+<tr><td>IOTA Access Experience</td><td>?</td><td></td></tr>
+</tbody></table>
+<h1><a class="header" href="#completed--retired" id="completed--retired">Completed / Retired</a></h1>
+<table><thead><tr><th>Initiative</th><th>Champion</th><th>Links</th><th>Notes</th></tr></thead><tbody>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<h2><a class="header" href="#labels-for-issues-and-prs" id="labels-for-issues-and-prs">Labels for Issues and PRs</a></h2>
+<p>In an effort to be more concise and distribute our knowledge, we do our best to use labels on issues to give context on their status. Here's a guide to how we use labels:</p>
+<ul>
+<li><code>initiative-</code> prefix: Belonging to or about an initiative that follows the prefix.</li>
+<li><code>waiting-on-</code> prefix: This indicates that we're waiting on a group for input/feedback.</li>
+<li><code>type-</code> prefix: Denotes what kind of discussion is happening – a request, an open discussion, a problem, etc.</li>
+<li><code>-agenda</code> suffix: Denotes that an issue will be included in the agenda of the initiative or WG pririor to the suffix.</li>
+<li><code>good-first-issue</code>: Issues that are a good place to start contributing to the IOTA Experience Team</li>
+<li><code>mentor-available</code>: Issues that have a mentor available to help out</li>
+</ul>
+<h2><a class="header" href="#governance-and-current-members" id="governance-and-current-members">Governance and Current Members</a></h2>
+<p>The  IOTA Experience Team is a team that collaborates alongside the IOTA Foundation. See the [IOTA Experience Team Charter] to learn more about the group's evolving structure and <a href="./CONTRIBUTING.html">CONTRIBUTING.md</a> for guidance about the expectations for all contributors to this project.</p>
+<h3><a class="header" href="#iota-experience-team-members" id="iota-experience-team-members">IOTA Experience Team Members</a></h3>
+<p>Based on all-time <a href="https://sourcecred.io">SourceCred</a> scores.</p>
+<h4><a class="header" href="#x-teams" id="x-teams">X-Teams</a></h4>
+<p><img src="./page-resources/images/contributors_x_teams.svg" alt="X-Teams" /></p>
+<h4><a class="header" href="#iotastreams" id="iotastreams">IOTAStreams</a></h4>
+<p><img src="https://raw.githubusercontent.com/iota-community/IOTAStreams/master/page-resources/images/contributors_x_streams.svg?sanitize=true" alt="IOTAStreams" /></p>
+<!-- Source for Markdown links included in this document -->
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+                            <a rel="next" href="../IOTA-Experience-Team-charter.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+                    <a rel="next" href="../IOTA-Experience-Team-charter.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
