@@ -54,24 +54,31 @@ A review of the initiatives will be a standing item on the IOTA Experience Team 
 
 | Initiative              | Champion(s) | Team members | Link                                                         |
 | ----------------------- | ----------- | ------------ | ------------------------------------------------------------ |
-| GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |
-| IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |
 | Bee Experience          |             |              | https://github.com/iota-community/X-Team_Bee |
 | IOTA Client Lib Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Libraries |
-| Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |
+| GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |
 | IOTA Access Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Access |
-| IOTA Identity | @huhn511 |              | https://github.com/iota-community/X-Team_IOTA_Identity |
+| IOTA Identity | Aconitin |              | https://github.com/iota-community/X-Team_IOTA_Identity |
+| IOTA Smart Contracts |  |              | https://github.com/iota-community/X-Team_IOTA_SmartContracts |
+| IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |
+| Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |
+| Stronghold Experience | |              | https://github.com/iota-community/X-Team_IOTA_Stronghold |
+| Simplify Experience | |              | https://github.com/iota-community/X-Team_IOTA_Simplify |
+
 
 ### In Need of Champion
 
 | Initiative              | Previous Champion | Links |
 | ----------------------- | ----------------- | ----- |
-| GoShimmer Experience | ?                 |       |
-| IOTA Streams Experience | ?                 |       |
 | Bee Experience | ?                 |       |
 | IOTA Client Lib Experience | ?                 |       |
+| GoShimmer Experience | ?                 |       |
+| IOTA Identity Experience | ?                 |       |
+| IOTA Smart Contracts Experience | ?                 |       |
+| IOTA Streams Experience | ?                 |       |
 | Permanode Experience | ?                 |       |
-| IOTA Access Experience | ?                 |       |
+| Stronghold Experience | ?                 |       |
+| Simplify Experience | ?                 |       |
 
 
 # Completed / Retired
