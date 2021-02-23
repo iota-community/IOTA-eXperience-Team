@@ -8,26 +8,12 @@ assignees: ''
 ---
 
 # Time
-**UTC** Tue 28-Apr-2020 18:00 (06:00 PM):
-
-Timezone | Date/Time
--- | --
-US / Pacific | Tue 28-Apr-2020 11:00 (11:00 AM)
-US / Mountain | Tue 28-Apr-2020 12:00 (12:00 AM)
-US / Central | Tue 28-Apr-2020 13:00 (1:00 PM)
-US / Eastern | Tue 28-Apr-2020 14:00 (2:00 PM)
-London | Tue 28-Apr-2020 19:00 (07:00 PM)
-Amsterdam | Tue 28-Apr-2020 20:00 (08:00 PM)
-Moscow | Tue 28-Apr-2020 21:00 (09:00 PM)
-Chennai | Tue 28-Apr-2020 23:30 (11:30 PM)
-Hangzhou | Wed 29-Apr-2020 02:00 (02:00 AM)
-Tokyo | Wed 29-Apr-2020 03:00 (03:00 AM)
-Sydney | Wed 29-Apr-2020 05:00 (05:00 AM)
+**UTC** Tue 23-Feb-2021 14:00 (02:00 PM):
 
 Or in your local time:
 
-* http://www.timeanddate.com/worldclock/fixedtime.html?msg=2020-04-28&iso=20200428T18
-* https://www.wolframalpha.com/input/?i=06PM+UTC%2C+Apr+28%2C+2020+in+local+time
+* https://www.wolframalpha.com/input/?i=02PM+UTC%2C+in+local+time
+
 
 # Links
 
