@@ -4,8 +4,8 @@ There are different ways to support IOTA without being a developer.
 
 **First and foremost** join the IOTA Community on the IOTA Discord server. Click on [this link](http://discord.iota.org/) to get the invitation to the server and get in touch with the IOTA Foundation members and the awesome IOTA community members.
 
-  * [Be an IOTAnaut](#be-an-iotanaut)
-    + [How to be an IOTAnaut](#how-to-be-an-iotanaut)
+  * [Be an Tanglenaut](#be-a-tanglenaut)
+    + [How to be an Tanglenaut](#how-to-be-a-tanglenaut)
       - [Twitter](#twitter)
       - [LinkedIn](#linkedin)
       - [YouTube](#youtube)
@@ -16,13 +16,13 @@ There are different ways to support IOTA without being a developer.
 
 Up next other ways to support IOTA:
 
-## Be an IOTAnaut
+## Be a Tanglenaut
 
-An IOTAnaut supports the project on various social networks like [Twitter](https://twitter.com/iotatoken/), [LinkedIn](https://www.linkedin.com/company/iotafoundation/) or platforms like [YouTube](https://www.youtube.com/c/iotafoundation), [GitHub](https://github.com/iotaledger/) and [Reddit](https://reddit.com/r/iota).
+An Tanglenaut supports the project on various social networks like [Twitter](https://twitter.com/iotatoken/), [LinkedIn](https://www.linkedin.com/company/iotafoundation/) or platforms like [YouTube](https://www.youtube.com/c/iotafoundation), [GitHub](https://github.com/iotaledger/) and [Reddit](https://reddit.com/r/iota).
 
-Optional: Rank as *iotanaut* on the IOTA Discord to be notified when news come out. To do so, join the **#rank-yourself** channel, type **!addrank iotanaut** as message and send it. From now on if someone *pings* the IOTAnauts by typing **@iotanauts** in Discord you will get a notification.
+Optional: Rank as *iotanaut* on the IOTA Discord to be notified when news come out. To do so, join the **#rank-yourself** channel, type **!addrank iotanaut** as message and send it. From now on if someone *pings* the Tanglenauts by typing **@tanglenauts** in Discord you will get a notification.
 
-### How to be an IOTAnaut
+### How to be a Tanglenaut
 
 Register an account <u>using a nickname</u> at the following sites and follow, subscribe, like, star, upvote the activities by the IOTA Foundation and the Ecosystem.
 
