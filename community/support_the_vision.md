@@ -4,7 +4,7 @@ There are different ways to support IOTA without being a developer.
 
 **First and foremost** join the IOTA Community on the IOTA Discord server. Click on [this link](http://discord.iota.org/) to get the invitation to the server and get in touch with the IOTA Foundation members and the awesome IOTA community members.
 
-  * [Be an Tanglenaut](#be-a-tanglenaut)
+  * [Be a Tanglenaut](#be-a-tanglenaut)
     + [How to be an Tanglenaut](#how-to-be-a-tanglenaut)
       - [Twitter](#twitter)
       - [LinkedIn](#linkedin)
