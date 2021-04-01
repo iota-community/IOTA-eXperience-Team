@@ -18,7 +18,7 @@ Up next other ways to support IOTA:
 
 ## Be a Tanglenaut
 
-An Tanglenaut supports the project on various social networks like [Twitter](https://twitter.com/iotatoken/), [LinkedIn](https://www.linkedin.com/company/iotafoundation/) or platforms like [YouTube](https://www.youtube.com/c/iotafoundation), [GitHub](https://github.com/iotaledger/) and [Reddit](https://reddit.com/r/iota).
+An Tanglenaut supports the project on various social networks like [Twitter](https://twitter.com/iota/), [LinkedIn](https://www.linkedin.com/company/iotafoundation/) or platforms like [YouTube](https://www.youtube.com/c/iotafoundation), [GitHub](https://github.com/iotaledger/) and [Reddit](https://reddit.com/r/iota).
 
 Optional: Rank as *iotanaut* on the IOTA Discord to be notified when news come out. To do so, join the **#rank-yourself** channel, type **!addrank iotanaut** as message and send it. From now on if someone *pings* the Tanglenauts by typing **@Tanglenaut** in Discord you will get a notification.
 
@@ -36,7 +36,7 @@ Time necessary: **15 minutes/week**
 
 Sign up to Twitter: https://twitter.com/i/flow/signup
 
-Follow the IOTA Foundation on Twitter [here](https://twitter.com/iotatoken/) and follow it daily to *like* and *retweet*. Look for other IOTA projects or ecosystem members and follow them and like their tweets.
+Follow the IOTA Foundation on Twitter [here](https://twitter.com/iota/) and follow it daily to *like* and *retweet*. Look for other IOTA projects or ecosystem members and follow them and like their tweets.
 
 #### LinkedIn
 
