@@ -85,7 +85,7 @@ Then open the following repositories and *star* them.
 https://github.com/iotaledger/streams  
 https://github.com/iotaledger/goshimmer  
 https://github.com/iotaledger/bee  
-https://github.com/iotaledger/firefly (not public yet)  
+https://github.com/iotaledger/firefly
 https://github.com/iotaledger/iota.rs  
 https://github.com/iotaledger/iota.c  
 https://github.com/iotaledger/iota.go  
