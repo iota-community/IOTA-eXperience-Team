@@ -97,7 +97,7 @@ https://github.com/iotaledger/hornet
 
 #### Reddit
 
-Upvoting and commenting on news to keep up to date with news around IOTA and the ecosystem
+Follow the community to keep up to date with news around IOTA and the ecosystem
 
 Difficulty level: **easy**
 
