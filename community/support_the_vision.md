@@ -105,6 +105,6 @@ Time necessary: **15-20 minutes/week**
 
 Sign up to Reddit: https://www.reddit.com/register/ or connect using your Google Account
 
-Join the IOTA subreddit https://www.reddit.com/r/Iota/ and upvote or comment on the posted information.
+Join the IOTA subreddit https://www.reddit.com/r/Iota/ and engage with the community there.
 
  ![image-20210115164131145](/community/images/image-20210115164131145.png)
