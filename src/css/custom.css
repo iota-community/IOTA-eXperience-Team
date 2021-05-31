@@ -1,0 +1,47 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --ifm-color-primary: #14CABF;
+  --ifm-color-primary-dark: #36A1AC;
+  --ifm-color-primary-darker: #2E8698;
+  --ifm-color-primary-darkest: #186575;
+  --ifm-color-primary-light: #00E0CA;
+  --ifm-color-primary-lighter: #00F5DD;
+  --ifm-color-primary-lightest: #7AFFF2;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base:'Inter', sans-serif;
+  --ifm-font-family-mono:'Inter', sans-serif;
+  --matrix-rain: rgba(255,255,2,0.05);
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #131F37; 
+  --ifm-navbar-background-color: #0A1529;
+  --matrix-rain: rgba(0,0,0,0.05);
+}
+
+html[data-theme='dark'] .hero--primary {
+  --ifm-hero-text-color: white;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .navbar .navbar__logo { content: url(/img/logo-dark-mode.svg) }
+
+.footer--dark {
+  background: #0A1529;
+}
