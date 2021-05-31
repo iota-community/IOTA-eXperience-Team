@@ -26,7 +26,7 @@ Before you get started, here's a broad outline of the IOTA Experience Team's gov
 
 As seen here, most of the community work that immediately affects the project is done within the numerous **initiatives**. We recommend checking the [list of initiatives](#strategic-initiatives) below and getting involved with one that you find interesting! If nothing suits your fancy and you have concrete ideas, open an issue here! We can help to point you in the right direction.
 
-To **get started** with contributing, you should read the [Contributing Guidelines](./CONTRIBUTING.md) document. This document details the roles you can take on. It also includes a guide to contributing and links to `good first issue`s where we're looking for help.
+To **get started** with contributing, you should read the [Contributing Guidelines](CONTRIBUTING.md) document. This document details the roles you can take on. It also includes a guide to contributing and links to `good first issue`s where we're looking for help.
 
 If you're interested in participating in the IOTA Experience Team directly, you're more than welcome to join via the Jitsi link posted in our meeting issues.
 
