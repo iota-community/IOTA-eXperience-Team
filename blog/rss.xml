@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>IOTA Experience Team Blog</title>
+        <link>https://github.com/iota-community/IOTA-eXperience-Team/blog</link>
+        <description>IOTA Experience Team Blog</description>
+        <lastBuildDate>Sun, 30 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://github.com/iota-community/IOTA-eXperience-Team/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the new X-Team Website!]]></description>
+        </item>
+    </channel>
+</rss>

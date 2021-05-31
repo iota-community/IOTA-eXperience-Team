@@ -1,0 +1,1 @@
+(self.webpackChunkIOTA_Identity_X_Team=self.webpackChunkIOTA_Identity_X_Team||[]).push([[934],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);
