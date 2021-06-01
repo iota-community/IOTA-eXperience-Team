@@ -58,7 +58,7 @@ A review of the initiatives will be a standing item on the IOTA Experience Team 
 | IOTA Client Lib Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Libraries |
 | GoShimmer Experience    |             |              | https://github.com/iota-community/X-Team_GoShimmer |
 | IOTA Access Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Access |
-| IOTA Identity | Aconitin |              | https://github.com/iota-community/X-Team_IOTA_Identity |
+| IOTA Identity | Adamski |              | https://github.com/iota-community/X-Team_IOTA_Identity |
 | IOTA Smart Contracts |  |              | https://github.com/iota-community/X-Team_IOTA_SmartContracts |
 | IOTA Streams Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Streams |
 | Permanode Experience |             |              | https://github.com/iota-community/X-Team_IOTA_Permanode |
