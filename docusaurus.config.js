@@ -29,7 +29,7 @@ module.exports = {
           label: 'Team',
         },
         {
-          href: 'https://github.com/iota-community/Template_IOTA-X-Team-Initiative',
+          href: 'https://github.com/iota-community/IOTA-eXperience-Team',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,13 +105,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/iota-community/IOTA-eXperience-Team',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/iota-community/IOTA-eXperience-Team',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
