@@ -26,7 +26,7 @@ const FeatureList = [
     img: require('../../static/img/wave.png').default,
     description: (
       <>
-        Join the X-Team and profit by the inspring motivation to discover and build new things. You can become a part of a X-Team with <a href="https://github.com/iota-community/Template_IOTA-X-Team-Initiative/issues/new/choose">this appliction</a>.
+        Join the X-Team and profit by the inspring motivation to discover and build new things. Hop on the <a href="https://discord.iota.org?ref=xteampage">IOTA Discord</a> and become a part of a X-Team using <a href="https://github.com/iota-community/Template_IOTA-X-Team-Initiative/issues/new/choose">this appliction</a>.
       </>
     ),
   },
